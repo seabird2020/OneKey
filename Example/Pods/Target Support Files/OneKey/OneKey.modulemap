@@ -1,0 +1,6 @@
+framework module OneKey {
+  umbrella header "OneKey-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - OneKey (0.1.0)
+
+DEPENDENCIES:
+  - OneKey (from `../`)
+
+EXTERNAL SOURCES:
+  OneKey:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OneKey: a5c69e357b54cfdb9a7d83cc3fe944caade9a45a
+
+PODFILE CHECKSUM: 7ab357e8f4433f3e0ff216a14df813db1148e4f3
+
+COCOAPODS: 1.9.1

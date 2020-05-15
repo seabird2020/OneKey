@@ -1,0 +1,6 @@
+framework module Pods_OneKey_Example {
+  umbrella header "Pods-OneKey_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
