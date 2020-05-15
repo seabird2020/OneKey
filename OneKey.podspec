@@ -30,13 +30,13 @@ a simple demo for test, go, go, go
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'OneKey/Classes/**/*'
+  s.source_files = 'OneKey/Classes/ReplaceMe.m'
   
-#  s.resource_bundles = {
-#   'OneKey' => ['OneKey/Classes/*.bundle']
-#  }
+  s.resource_bundles = {
+   'OneKey' => ['OneKey/Classes/*.bundle']
+  }
 
-  #s.vendored_frameworks = 'OneKey/Classes/*.framework'
+  s.vendored_frameworks = 'OneKey/Classes/*.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
