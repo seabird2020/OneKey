@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OneKey'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'a simple demo for test'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,11 @@ a simple demo for test, go, go, go
 
   s.source_files = 'OneKey/Classes/ReplaceMe.m'
   
-  s.resource_bundles = {
-   'OneKey' => ['OneKey/Classes/*.bundle']
-  }
+  s.ios.resources = ['OneKey/Classes/JVerificationResource.bundle']
+
+  #s.resource_bundles = {
+  # 'OneKey' => ['OneKey/Classes/*.bundle']
+  #}
 
   s.vendored_frameworks = 'OneKey/Classes/*.framework'
   s.libraries = 'resolv', 'c++.1', 'sqlite3.0', 'z'
